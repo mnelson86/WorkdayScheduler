@@ -26,7 +26,7 @@ $( document ).ready(function() {
       row.append(col2);
       row.append(col3);
 
-      // last step add rows to container
+      // add rows to container
       $(".container").append(row);
 
       getLocalStorage(i);
